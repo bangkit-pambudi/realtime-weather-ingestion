@@ -17,8 +17,8 @@ def read_city(filename):
     data = pd.read_excel(filename_path)
     return data['City'].tolist()
 
-API_KEY = 'f9a30a29b5f243bda2565626222412'
-main_path = '/mnt/c/diary ngoding/Test Telkom/weather kafka ingestion/Producer/'
+API_KEY = 'xxxxxxxxxxxxxxxxxx'
+main_path = '/mnt/c/diary ngoding/Test/weather kafka ingestion/Producer/'
 BROKER = 'localhost:9092'
 CITY_PROFILES = []
 CITY_PROFILES = read_city('list-cities-indonesia-63j.xlsx')
